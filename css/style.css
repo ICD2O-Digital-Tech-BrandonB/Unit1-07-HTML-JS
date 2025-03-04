@@ -1,4 +1,26 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
+/* Created by: Brandon Brandhuber
+* Created on: March 2025
+* This file contains the CSS for more_js.html
 */
+
+body {
+    background-color: rgb(92, 209, 131);
+}
+
+h1 {
+    background-color: rgb(219, 157, 40);
+    color: hsl(197, 61%, 54%);
+    padding: 40px;
+    text-align: center;
+}
+
+h3 {
+    background-color: aqua;
+    color:aliceblue;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    background-color: #f700ff;
+}

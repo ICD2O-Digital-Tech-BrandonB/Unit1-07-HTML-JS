@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
   <head>
       <meta charset="utf-8">
-      <meta name="description" content="My first webpage, using JS">
+      <meta name="description" content="My second webpage, using JS">
       <meta name="keyboard" content="immaculata, icd2o">
       <meta name="author" content="BrandonBCode">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,4 +16,32 @@
        <!--Google's MDL Crucial Code-->
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
       <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> 
+
+      <link rel="stylesheet" href="./css/style.css">
     <title>Second Javascript Webpage!</title>
+  </head>
+   <body>
+    <h1>Hello, World with JS!</h1>
+    <h3>This is my first time using 2 buttons in Javascript!</h3>
+
+    <!--Google's MDL Crucial Code-->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> 
+    <script>
+      function btnClickMe() {
+        alert ("So glad you clicked on me! Have a great day!")
+      }
+      function btnCSS() {
+        alert ("Using Style is Important and Fun!")
+      }
+    </script>
+    <!-- Accent-colored raised button with ripple -->
+    <button onclick="btnClickMe()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+      Click Me!
+      <!-- Colored raised button -->
+    <button onclick="btnCSS()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+    CSS
+    </button>
+    <p>Hopefully you enjoyed the variety of colours and buttons on this site</p>
+    <br></br>
+  </body>
+</html>
